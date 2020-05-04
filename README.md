@@ -1,4 +1,4 @@
-o# Mindful-Neural-Networks
+# Mindful-Neural-Networks
 
 ## Mindfulness and thoughts
 
