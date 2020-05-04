@@ -9,6 +9,10 @@ For better understandability we visualize the network and its weights. High weig
 
 GRAFIK
 
+We can do even more and observe the network learning. For example we can see how a network is trained on the famous Iris data set, where we have three features in three classes
+
+IRISGRAFIK
+
 ## Food for thought
 We only consider the weights between neurons here, the bias (which is also part of the training) is set to zero at all time. 
 
