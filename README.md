@@ -29,6 +29,10 @@ Auto encoders are used to learn an encoding of data. Here we learn an encoding o
 
 GRAFIK
 
+Like the input layer, we want to freeze the weights between the last layer and the output layer. It turns out that with a frozen set of weights between the last two layers, training is not working. This might be due to the way the backpropagation algorithm works. 
+
+We unfreeze them, but do not include them in our input and in our analysis. 
+
 ## Training time
 
 Since we can not train forever, we fix a maximal number of epochs for which we let the network learn. 
