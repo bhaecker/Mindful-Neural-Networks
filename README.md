@@ -1,8 +1,13 @@
-# Mindful-Neural-Networks
+o# Mindful-Neural-Networks
 
 ## Mindfulness and thoughts
 
 To watch your own thoughts without judging, is a popular exercice in mindfulness training. We want to see if we can transfer this exercice to artificial neural networs (ANN). Since thoughts are a rather abstract concept, we focus on something more tangible. Instead of thoughts we feed an ANN with its own weights, or to be more precise we train an ANN on its own weights. For that we initialise an ANN with random weights, train it for one epoch on said weights, take the adapted weights from the network, train the network on the new weights and so on. 
+
+## Visuals
+For better understandability we visualize the network and its weights. High weights are represented by thick lines, a redish colour represent positive values, and blueish colour represent negative values. Here we see two networks, one initialized with random weights, the other one with random uniformly chosen ones. 
+
+GRAFIK
 
 ## Food for thought
 We only consider the weights between neurons here, the bias (which is also part of the training) is set to zero at all time. 
@@ -33,9 +38,20 @@ We can expect two behaviors of the network. Either it will run into a fix point,
 Before we start the actual experiment, we need to define what it means to have a change in weights. We define it as follows:
 If at least one of the weights changes more then a given threshold we consider it a change. If the network does not change for ten epochs, we stop the training. 
 
+
+
+
 ## Grid Search
 We fix a threshold of ``0.01`` and a maximum number of epochs of ``~111``. 
 
 <img src="https://github.com/bhaecker/Mindful-Neural-Networks/blob/master/graphics/plasticity.gif" width="500" height="790">
-blubluibul
+
+We then perform a grid search to test out different network structures and their behavior. 
+
+## Results
+It turns out that most networks do not change their weights after a couple of epochs. A typical training process looks like this for this case:
+
+
+There are several networks, which do not get stuck in a fix point but in- and decrease their weights during the period of training.
+Here are some examples.
 
