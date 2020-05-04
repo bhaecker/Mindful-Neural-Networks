@@ -30,11 +30,11 @@ Since we can not train forever, we fix a maximal number of epochs for which we l
 
 We can expect two behaviors of the network. Either it will run into a fix point, which means the weights do not change anymore. Or the weights continue to change and maybe oscillate or exhibit other patterns. 
 
-Before we start the actuall experiment, we need to define what it means to have a change in weights. We define it as follows:
-If at leat one of the weights changes more then a given threshold we consider it a change. If the network does not change for ten epochs, we stop the training. 
+Before we start the actual experiment, we need to define what it means to have a change in weights. We define it as follows:
+If at least one of the weights changes more then a given threshold we consider it a change. If the network does not change for ten epochs, we stop the training. 
 
 ## Grid Search
-We fix the 
+We fix a threshold of ``0.01`` and a maximum number of epochs of ``~111``. 
 
 <img src="https://github.com/bhaecker/Mindful-Neural-Networks/blob/master/graphics/plasticity.gif" width="500" height="790">
 blubluibul
