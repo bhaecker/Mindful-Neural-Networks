@@ -7,12 +7,12 @@ To watch your own thoughts without judging, is a popular exercice in mindfulness
 ## Visuals
 For better understandability we visualize the network and its weights. High weights are represented by thick lines, a redish colour represent positive values, and blueish colour represent negative values. Here we see two networks, one initialized with same valued weights, the other one with random uniformly chosen ones. 
 
-<p float="left">
+<p align="center">
   <img src="https://github.com/bhaecker/Mindful-Neural-Networks/blob/master/graphics/nn_constant.png" width="400" />
   <img src="https://github.com/bhaecker/Mindful-Neural-Networks/blob/master/graphics/nn_random.png" width="400" />
 </p> 
 
-We can do even more and observe a neural network learning. Lets take the famous Iris data set as an example. We can observe how a neural network is trained on the four features of this data set. Each sample is classified into three classes, hence the size of the input and output layer. 
+We can do even more and observe a neural network learning. Lets take the famous Iris data set as an example. We can observe how a neural network is trained on the four features, which are classified into three classes.
 
 
 
@@ -76,8 +76,6 @@ If at least one of the weights changes more then a given threshold we consider i
 
 ## Grid Search
 We fix a threshold of ``0.01`` and a maximum number of epochs of ``~111``. 
-
-<img src="https://github.com/bhaecker/Mindful-Neural-Networks/blob/master/graphics/plasticity.gif" width="500" height="790">
 
 We then perform a grid search to test out different network structures and their behavior. 
 
