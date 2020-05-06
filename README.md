@@ -15,23 +15,25 @@ We can do even more and observe a neural network learning. For example we can se
 
 <img align="left" src="https://github.com/bhaecker/Mindful-Neural-Networks/blob/master/graphics/Iris_4663.gif" width="500" >
 
+<br><br><br><br><br><br><br><br><br><br><br>
+
 For example on the left, we see a network with two hidden layers with six neurons each and initial weights all set to ``1`` trained for ``500`` epochs on the Iris data set. 
 
 
 <img align="right" src="https://github.com/bhaecker/Mindful-Neural-Networks/blob/master/graphics/Iris_483.gif" width="500" >
 
-<br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br>
 
 We can do the same thing with a different network architecture. On the right we see a network with only one hidden layer with eight neurons, again trained on the Iris data set for ``500`` epochs.
 
 
 <img align="left"  src="https://github.com/bhaecker/Mindful-Neural-Networks/blob/master/graphics/Iris_random_483.gif" width="500" >
 
-<br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br>
 
 Weights are usually initialized randomly. We take the network from before, but rather setting all weights to ``1``, we set them randomly. Again we train for ``500`` epochs.
 
-<br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br>
 
 ## Food for thought
 We only consider the weights between neurons here, the bias (which is also part of the training) is set to zero at all time. 
