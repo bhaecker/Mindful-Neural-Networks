@@ -11,12 +11,12 @@ GRAFIK
 
 We can do even more and observe a neural network learning. For example we can see how a network is trained on the famous Iris data set, where we have four features in three classes.
 
+
+
 <img align="left" src="https://github.com/bhaecker/Mindful-Neural-Networks/blob/master/graphics/Iris_4663.gif" width="500" >
 
 For example on the left, we see a network with two hidden layers with six neurons each and initial weights all set to ``1`` trained for ``500`` epochs on the Iris data set. 
 
-
-<br><br><br><br><br><br><br><br>
 
 <img align="right" src="https://github.com/bhaecker/Mindful-Neural-Networks/blob/master/graphics/Iris_483.gif" width="500" >
 
@@ -24,7 +24,6 @@ For example on the left, we see a network with two hidden layers with six neuron
 
 We can do the same thing with a different network architecture. On the right we see a network with only one hidden layer with eight neurons, again trained on the Iris data set for ``500`` epochs.
 
-<br><br><br><br><br><br><br><br>
 
 <img align="left"  src="https://github.com/bhaecker/Mindful-Neural-Networks/blob/master/graphics/Iris_random_483.gif" width="500" >
 
