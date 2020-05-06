@@ -9,11 +9,27 @@ For better understandability we visualize the network and its weights. High weig
 
 GRAFIK
 
-We can do even more and observe the network learning. For example we can see how a network is trained on the famous Iris data set, where we have three features in three classes
+We can do even more and observe a neural network learning. For example we can see how a network is trained on the famous Iris data set, where we have four features in three classes.
 
-<img src="https://github.com/bhaecker/Mindful-Neural-Networks/blob/master/graphics/Iris_4663.gif" width="500" >
-<img src="https://github.com/bhaecker/Mindful-Neural-Networks/blob/master/graphics/Iris_483.gif" width="500" >
-<img src="https://github.com/bhaecker/Mindful-Neural-Networks/blob/master/graphics/Iris_random_483.gif" width="500" >
+<img align="left" src="https://github.com/bhaecker/Mindful-Neural-Networks/blob/master/graphics/Iris_4663.gif" width="500" >
+
+On the left we see a network with two hidden layers with six neurons each and initial weights all set to ``1`` trained for ``500`` epochs. 
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+
+
+
+
+
+
+
+
+<img align="right" src="https://github.com/bhaecker/Mindful-Neural-Networks/blob/master/graphics/Iris_483.gif" width="500" >
+
+
+
+<img align="left"  src="https://github.com/bhaecker/Mindful-Neural-Networks/blob/master/graphics/Iris_random_483.gif" width="500" >
 
 
 
