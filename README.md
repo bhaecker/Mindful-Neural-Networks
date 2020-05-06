@@ -29,9 +29,9 @@ We can do the same thing with a different network architecture. On the right we 
 
 <img align="left"  src="https://github.com/bhaecker/Mindful-Neural-Networks/blob/master/graphics/Iris_random_483.gif" width="500" >
 
-<br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
-Weights are usually initialized randomly. We take the network from before, but rather setting all weights to ``1``, we set them randomly. Again we train for ``500`` epochs.
+Weights are usually initialized randomly before training. We take the network from before, but rather setting all weights to ``1``, we set them randomly. Again we train for ``500`` epochs.
 
 <br><br><br><br><br><br><br><br><br><br><br>
 
