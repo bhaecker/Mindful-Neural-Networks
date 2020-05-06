@@ -11,9 +11,9 @@ GRAFIK
 
 We can do even more and observe the network learning. For example we can see how a network is trained on the famous Iris data set, where we have three features in three classes
 
-<img src="https://github.com/bhaecker/Mindful-Neural-Networks/blob/master/graphics/plasticity.gif" width="500" height="790">
-<img src="https://github.com/bhaecker/Mindful-Neural-Networks/blob/master/graphics/plasticity.gif" width="500" height="790">
-<img src="https://github.com/bhaecker/Mindful-Neural-Networks/blob/master/graphics/plasticity.gif" width="500" height="790">
+<img src="https://github.com/bhaecker/Mindful-Neural-Networks/blob/master/graphics/Iris_4663.gif" width="500" >
+<img src="https://github.com/bhaecker/Mindful-Neural-Networks/blob/master/graphics/Iris_483.gif" width="500" >
+<img src="https://github.com/bhaecker/Mindful-Neural-Networks/blob/master/graphics/Iris_random_483.gif" width="500" >
 
 
 
