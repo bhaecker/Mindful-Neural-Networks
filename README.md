@@ -7,7 +7,10 @@ To watch your own thoughts without judging, is a popular exercice in mindfulness
 ## Visuals
 For better understandability we visualize the network and its weights. High weights are represented by thick lines, a redish colour represent positive values, and blueish colour represent negative values. Here we see two networks, one initialized with same valued weights, the other one with random uniformly chosen ones. 
 
-GRAFIK
+<p float="left">
+  <img src="https://github.com/bhaecker/Mindful-Neural-Networks/blob/master/graphics/nn_constant.png" width="100" />
+  <img src="https://github.com/bhaecker/Mindful-Neural-Networks/blob/master/graphics/nn_random.png" width="100" />
+</p> 
 
 We can do even more and observe a neural network learning. For example we can see how a network is trained on the famous Iris data set, where we have four features in three classes.
 
