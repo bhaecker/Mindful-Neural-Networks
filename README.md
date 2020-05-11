@@ -63,9 +63,13 @@ In order to train a neural network with the backpropagation algorithm, we need a
 ## From non-judgemental to auto encoders
 
 We solve this issue by using an auto encoder structure. For that we include an output layer after our last layer, which has exactly the same number of neurons as the input layer and train with a target, which is equal to the input.
-Auto encoders are used to learn an encoding of data. Here we learn an encoding of data, which is the eocoding itself. 
+Auto encoders are used to learn an encoding of data. Here we learn an encoding of data, which is the encoding itself. 
 
-GRAFIK
+<p align="center">
+  <img rc="https://github.com/bhaecker/Mindful-Neural-Networks/blob/master/graphics/nn_534_aut.png" width="400" />
+</p> 
+
+
 
 Like the input layer, we want to freeze the weights between the last layer and the output layer. It turns out that with a frozen set of weights between the last two layers, training is not working. This might be due to the way the backpropagation algorithm works. 
 
