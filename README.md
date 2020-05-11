@@ -48,7 +48,7 @@ We only consider the weights between neurons here, the bias (which is also part 
 
 For example: a fully connected network of three layers with ``5,3,4`` neurons respectively, has a set of weights of size ``5*3+3*4 = 27``.
 
-<br><br><br><br><br><br><br>
+<br><br><br><br><br><br>
 
 
  <img align="left" img src="https://github.com/bhaecker/Mindful-Neural-Networks/blob/master/graphics/nn_534_in.png" width="400" />
