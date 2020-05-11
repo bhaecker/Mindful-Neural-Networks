@@ -53,6 +53,7 @@ For example: a fully connected network of three layers with ``5,3,4`` neurons re
 
  <img align="left" img src="https://github.com/bhaecker/Mindful-Neural-Networks/blob/master/graphics/nn_534_in.png" width="400" />
  <br><br><br><br><br>
+ 
 Since we can not feed a vector of size ``32`` into a layer of ``4`` neurons, we introduce an input layer of the size needed for each network, which is fully connected to the first layer. We freeze the weights between the input and the first layer, since we are not interested in adapting these weights. 
 
 
