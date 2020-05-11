@@ -41,13 +41,17 @@ Weights are usually initialized randomly before training. We take the network fr
 ## Food for thought
 We only consider the weights between neurons here, the bias (which is also part of the training) is set to zero at all time. 
 
-For example: a fully connected network of three layers with ``4`` neurons each, has a set of weights of size ``4*4+4*4 = 32``.
+<br><br><br><br><br><br><br><br><br>
+ <img align="right" img src="https://github.com/bhaecker/Mindful-Neural-Networks/blob/master/graphics/nn_534.png" width="400" />
+<br><br><br><br><br><br><br><br><br>
 
-GRAFIK
+For example: a fully connected network of three layers with ``5,3,4`` neurons respectively, has a set of weights of size ``5*3+3*4 = 27``.
+
 
 Since we can not feed a vector of size ``32`` into a layer of ``4`` neurons, we introduce an input layer of the size needed for each network, which is fully connected to the first layer. We freeze the weights between the input and the first layer, since we are not interested in adapting these weights. 
 
-GRAFIK
+ <img src="https://github.com/bhaecker/Mindful-Neural-Networks/blob/master/graphics/nn_534_in.png" width="400" />
+
 
 In order to train a neural network with the backpropagation algorithm, we need a measure on how good it performs at the given moment. This measure or loss function, compares the prediction of the network and the target. Since we want the network learn in a non-judgemental way on the one hand, but need labels for the algorithm on the other hand, we run into a conceptual problem. 
 
