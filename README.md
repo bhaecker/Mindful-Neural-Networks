@@ -66,7 +66,7 @@ We solve this issue by using an auto encoder structure. For that we include an o
 Auto encoders are used to learn an encoding of data. Here we learn an encoding of data, which is the encoding itself. 
 
 <p align="center">
-  <img rc="https://github.com/bhaecker/Mindful-Neural-Networks/blob/master/graphics/nn_534_aut.png" width="400" />
+  <img src="https://github.com/bhaecker/Mindful-Neural-Networks/blob/master/graphics/nn_534_aut.png" width="400" />
 </p> 
 
 
