@@ -114,4 +114,11 @@ Here are some examples:
   <img src="https://github.com/bhaecker/Mindful-Neural-Networks/blob/master/graphics/plasticity_655.gif" width="400" />
   <img src="https://github.com/bhaecker/Mindful-Neural-Networks/blob/master/graphics/plasticity_3434.gif" width="400" />
 </p> 
+and 
+
+
+<p align="center">
+  <img src="https://github.com/bhaecker/Mindful-Neural-Networks/blob/master/graphics/plasticity_484.gif" width="400" />
+  <img src="https://github.com/bhaecker/Mindful-Neural-Networks/blob/master/graphics/plasticity_11119.gif" width="400" />
+</p> 
 
