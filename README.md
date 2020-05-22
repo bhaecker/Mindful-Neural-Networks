@@ -107,5 +107,11 @@ It turns out that most networks do not change their weights after a couple of ep
 
 
 There are several networks, which do not get stuck in a fix point but in- and decrease their weights during the period of training.
-Here are some examples.
+Here are some examples:
+
+
+<p align="center">
+  <img src="https://github.com/bhaecker/Mindful-Neural-Networks/blob/master/graphics/plasticity_655.gif" width="400" />
+  <img src="https://github.com/bhaecker/Mindful-Neural-Networks/blob/master/graphics/plasticity_3434.gif" width="400" />
+</p> 
 
