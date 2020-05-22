@@ -20,7 +20,7 @@ We can do even more and observe a neural network learning. Lets take the famous 
 
 <br><br><br><br><br><br><br>
 
-For example on the left, we see a network with two hidden layers with six neurons each and initial weights all set to ``1`` trained for ``500`` epochs on the Iris data set. 
+For example on the left, we see a network with two hidden layers with six neurons each and initial weights all set to ``1`` trained for ``150`` epochs on the Iris data set. 
 
 
 <img align="right" src="https://github.com/bhaecker/Mindful-Neural-Networks/blob/master/graphics/Iris_483.gif" width="500" >
@@ -34,13 +34,22 @@ We can do the same thing with a different network architecture. On the right we 
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
-Weights are usually initialized randomly before training. We take the network from before, but rather setting all weights to ``1``, we set them randomly. Again we train for ``500`` epochs.
+Weights are usually initialized randomly before training. We take the network from before, but rather setting all weights to ``1``, we set them randomly. Again we train for ``150`` epochs.
 
 <br><br><br><br><br><br><br><br><br>
 
 ## Food for thought
-We only consider the weights between neurons here, the bias (which is also part of the training) is set to zero at all time. 
+The discerning reader will have noticed that we only consider the weights between neurons here. The bias (which is also part of the training) is set to zero at all time. The equation for a neuron 
 
+<p align="center">
+<a href="https://www.codecogs.com/eqnedit.php?latex=\fn_cm&space;z^{[l]}_i&space;=&space;w^T_i&space;\cdot&space;g^{[l-1]}(z_{(i-1)}^{[l-1]})&space;&plus;&space;b_i" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\fn_cm&space;z^{[l]}_i&space;=&space;w^T_i&space;\cdot&space;g^{[l-1]}(z_{(i-1)}^{[l-1]})&space;&plus;&space;b_i" title="z^{[l]}_i = w^T_i \cdot g^{[l-1]}(z_{(i-1)}^{[l-1]}) + b_i" /></a>
+</p> 
+ boils down to 
+
+<p align="center">
+<a href="https://www.codecogs.com/eqnedit.php?latex=\fn_cm&space;z^{[l]}_i&space;=&space;w^T_i&space;\cdot&space;g^{[l-1]}(z_{(i-1)}^{[l-1]})&space;&plus;&space;b_i" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\fn_cm&space;z^{[l]}_i&space;=&space;w^T_i&space;\cdot&space;g^{[l-1]}(z_{(i-1)}^{[l-1]})&space;&plus;&space;b_i" title="z^{[l]}_i = w^T_i \cdot g^{[l-1]}(z_{(i-1)}^{[l-1]})," /></a>
+</p> 
+where <a href="https://www.codecogs.com/eqnedit.php?latex=\fn_cm&space;w^T_i" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\fn_cm&space;w^T_i" title="w^T_i" /></a> is the set of weights, <a href="https://www.codecogs.com/eqnedit.php?latex=\fn_cm&space;g^{[l-1]}(z_{(i-1)}^{[l-1]})" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\fn_cm&space;g^{[l-1]}(z_{(i-1)}^{[l-1]})" title="g^{[l-1]}(z_{(i-1)}^{[l-1]})" /></a> the activation of the old neuron and <a href="https://www.codecogs.com/eqnedit.php?latex=\fn_cm&space;b_i" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\fn_cm&space;b_i" title="b_i" /></a> the bias. 
 
 <img align="right" img src="https://github.com/bhaecker/Mindful-Neural-Networks/blob/master/graphics/nn_534.png" width="400" />
  
