@@ -56,7 +56,7 @@ where <a href="https://www.codecogs.com/eqnedit.php?latex=\fn_cm&space;w^T_i" ta
  
 <br><br><br><br><br><br><br>
 
-For example: a fully connected network of three layers with ``5,3,4`` neurons respectively, has a set of weights of size ``5*3+3*4 = 27``.
+For example: a fully connected network of three layers with ``5,3,4`` neurons respectively, has a set of weights (written as entries of vectors) of size ``5*3+3*4 = 27``.
 
 <br><br><br><br><br><br>
 
