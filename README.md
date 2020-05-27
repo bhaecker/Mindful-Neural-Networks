@@ -27,7 +27,7 @@ For example on the left, we see a network with two hidden layers with six neuron
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
-We can do the same thing with a different network architecture. On the right we see a network with only one hidden layer with eight neurons, again trained on the Iris data set for ``500`` epochs.
+We can do the same thing with a different network architecture. On the right we see a network with only one hidden layer with eight neurons, again trained on the Iris data set for ``150`` epochs.
 
 
 <img align="left"  src="https://github.com/bhaecker/Mindful-Neural-Networks/blob/master/graphics/Iris_random_483.gif" width="500" >
