@@ -133,3 +133,8 @@ and
   <img src="https://github.com/bhaecker/Mindful-Neural-Networks/blob/master/graphics/plasticity_11119.gif" width="400" />
 </p> 
 
+## Conclusion
+The behavior of the network depends heavily on the random initialisation. For example same valued weights do not change when trained on themself. The input and output layer for the auto-encoder grows with the size of the network, which we clip in between these two layers. It turns out that large networks with too many weights do also not change their weights during training.
+
+From a conecptual point of view we learned, that the application of natural phenomenas to machine learning is not always immediate. Sometimes one need to think of a work-around or use existing frameworks (like auto-encoders) to achieve their desired setup.
+Nevertheless it is exiting to transfer neuropsychological principles to artifical neural networks.
