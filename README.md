@@ -105,6 +105,17 @@ We then perform a grid search to test out different network structures and their
 ## Results
 It turns out that most networks do not change their weights after a couple of epochs. A typical training process looks like this for this case:
 
+<p align="center">
+  <img src="https://github.com/bhaecker/Mindful-Neural-Networks/blob/master/graphics/fix_plasticity_334.gif" width="400" />
+  <img src="https://github.com/bhaecker/Mindful-Neural-Networks/blob/master/graphics/fix_plasticity_8868.gif" width="400" />
+</p> 
+
+Some networks do not change their weights at all:
+
+<p align="center">
+  <img src="https://github.com/bhaecker/Mindful-Neural-Networks/blob/master/graphics/no_plasticity_8865.gif" width="400" />
+</p> 
+
 
 There are several networks, which do not get stuck in a fix point but in- and decrease their weights during the period of training.
 Here are some examples:
