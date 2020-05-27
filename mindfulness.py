@@ -166,7 +166,7 @@ def mindfulness_model(input_dim,layers_list,output_dim):
 
 def train_mindulness_model(model,samples,target,split,epochs):
     """
-    train a mindfulness models
+    train a mindfulness model
     """
     thought = []
     for i, layer in enumerate(model.layers):
