@@ -2,7 +2,7 @@
 
 ## Mindfulness and thoughts
 
-To watch your own thoughts without judging, is a popular exercice in mindfulness training. We want to see if we can transfer this exercice to artificial neural networs (ANN). Since thoughts are a rather abstract concept, we focus on something more tangible. Instead of thoughts we feed an ANN with its own weights, or to be more precise we train an ANN on its own weights. For that we initialise an ANN with random weights, train it for one epoch on said weights, take the adapted weights from the network, train the network on the new weights and so on. 
+To watch your own thoughts without judging, is a popular exercice in mindfulness training. We want to see if we can transfer this exercice to artificial neural networks (ANN). Since thoughts are a rather abstract concept, we focus on something more tangible. Instead of thoughts we feed an ANN with its own weights, or to be more precise we train an ANN on its own weights. For that we initialise an ANN with random weights, train it for one epoch on said weights, take the adapted weights from the network, train the network on the new weights and so on. 
 
 ## Visuals
 For better understandability we visualize the network and its weights. High weights are represented by thick lines, a redish colour represents positive values, and blueish colours represent negative values. Here we see two networks, one initialized with same valued weights, the other one with random uniformly chosen ones. 
